@@ -1,39 +1,24 @@
-import { Layout, Menu, MenuProps } from "antd";
+import { Layout, Typography } from "antd";
 import { FC, PropsWithChildren } from "react";
+import { Header } from "../../components";
 
-const { Content, Header, Footer } = Layout;
+const { Content, Footer } = Layout;
+const { Link, Text } = Typography;
 
 export const MainLayout: FC<PropsWithChildren> = ({ children }) => {
-  const items: MenuProps["items"] = [
-    {
-      label: "Finca Raíz",
-      key: "realty",
-      children: [
-        { label: "Venta", key: "realty-sell" },
-        { label: "Arrendamiento", key: "realty-lease" },
-        { label: "Propiedad Horizontal", key: "realty-horizontal" },
-        { label: "Embargos", key: "realty-embargoes" },
-      ],
-    },
-    {
-      label: "Jurídico",
-      key: "legal",
-      children: [
-        { label: "Sucesiones", key: "legal-successions" },
-        { label: "Hipotecas", key: "legal-mortgage" },
-        { label: "Propiedad Horizontal", key: "realty-horizontal" },
-        { label: "Embargos", key: "realty-embargoes" },
-      ],
-    },
-  ];
   return (
-    <Layout>
-      <Header className="Header">
-        <p>Logo</p>
-        <Menu mode="horizontal" items={items} />
-      </Header>
+    <Layout className="Layout">
+      <Header />
       <Content>{children}</Content>
-      <Footer>Designed by devHector.Ga</Footer>
+      <Footer>
+        <Text>
+          Designed by{" "}
+          <Link href="https:devHector.Ga" target="_blank">
+            devHector.Ga
+          </Link>{" "}
+          &copy;2022
+        </Text>
+      </Footer>
     </Layout>
   );
 };
