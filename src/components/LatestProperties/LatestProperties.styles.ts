@@ -23,7 +23,7 @@ export const ListContainer = styled.section`
     overflow-x: initial;
     width: 80%;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024) {
     grid-template-columns: repeat(3, 1fr);
   }
 `;
