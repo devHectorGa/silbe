@@ -1,9 +1,29 @@
 body {
-  min-height: 100vh;
-  background: fixed url('/architect.jpeg') center;
+  min-height: 100vh;  
 }
-.HomePage-Carousel {
-  background: fixed url('/house.jpeg') center;
+.Hero-Container {
+  position: relative;
+  background-color: @background-dark;
   background-size: cover;
-  // min-height: 70vh;
+  min-height: 70vh;
+
+  &::after{
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+    content: "";
+    background: url(/HeroSlave.svg) no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height: 10vh;
+    height: 200px;
+  }
+}
+.custom-shape-divider-top-1668185447 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
