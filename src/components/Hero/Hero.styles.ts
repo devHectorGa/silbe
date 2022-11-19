@@ -2,7 +2,7 @@ import { Card } from "antd";
 import styled from "styled-components";
 
 export const HeroContainer = styled.section`
-  min-height: 80vh;
+  min-height: 95vh;
   background-color: #333;
   background-image: url("./house.jpeg");
   display: grid;
@@ -16,16 +16,16 @@ export const HeroContainer = styled.section`
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
-    background-color: rgba(0, 0, 0, 0.4);
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
   }
 `;
 
 export const HeroContent = styled(Card)`
-  max-width: 60rem;
+  max-width: 40rem;
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);

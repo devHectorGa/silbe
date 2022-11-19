@@ -1,4 +1,4 @@
-import { Button, Typography } from "antd";
+import { Typography } from "antd";
 import { HeroContainer, HeroContent } from "./Hero.styles";
 import { Waves } from "./Waves";
 
@@ -14,7 +14,6 @@ export const Hero = () => (
         ever since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
       </Paragraph>
-      <Button type="primary">Leer mas...</Button>
     </HeroContent>
     <Waves />
   </HeroContainer>
