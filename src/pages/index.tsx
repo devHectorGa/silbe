@@ -1,6 +1,6 @@
 import React from "react";
 import { AboutUs } from "src/components/AboutUs";
-import { Hero, LatestProperties } from "../components";
+import { Hero, LatestProperties, Services } from "../components";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Hero />
       <LatestProperties />
       <AboutUs />
+      <Services />
     </>
   );
 }

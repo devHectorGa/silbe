@@ -14,6 +14,7 @@ export const AboutUsContent = styled.div`
   margin: 3rem;
   display: grid;
   gap: 2rem;
+  grid-template-columns: 1fr;
   @media screen and (min-width: 768px) {
     grid-template-columns: 240px 1fr;
   }
@@ -50,6 +51,9 @@ export const SVGWave = styled.svg`
 `;
 
 export const AboutTitle = styled(Typography.Title)`
-  grid-column: span 3;
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    grid-column: span 2;
+  }
 `;

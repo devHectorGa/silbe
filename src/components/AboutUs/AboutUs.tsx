@@ -8,7 +8,7 @@ const { Paragraph } = Typography;
 export const AboutUs = () => (
   <AboutUsContainer>
     <WavesAbout />
-    <AboutUsContent>
+    <AboutUsContent className="dark">
       <AboutTitle>QUIENES SOMOS</AboutTitle>
       <Image src="/SIL.svg" alt="Logo" width={240} height={240} />
       <Paragraph>
