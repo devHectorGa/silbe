@@ -12,6 +12,7 @@ export const ListContainer = styled.section`
   max-width: 1024px;
   margin: 2rem auto;
   display: flex;
+  flex-direction: column;
   overflow-x: scroll;
   gap: 1rem;
   ß &:-webkit-scrollbar {

@@ -8,7 +8,7 @@ export const HeroContainer = styled.section`
   display: grid;
   align-items: center;
   position: relative;
-  padding: 6rem;
+  padding: 1rem;
 
   &::before {
     content: "";
@@ -19,6 +19,10 @@ export const HeroContainer = styled.section`
     height: 95vh;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 6rem;
   }
 `;
 

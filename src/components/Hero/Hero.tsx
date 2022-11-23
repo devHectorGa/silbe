@@ -7,12 +7,13 @@ const { Title, Paragraph } = Typography;
 export const Hero = () => (
   <HeroContainer>
     <HeroContent>
-      <Title>Eden del Parque</Title>
+      <Title>SIL-BE</Title>
       <Paragraph>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
+        Somos un gran equipo que trabaja en la parte inmobiliaria y la parte
+        jurídica, una fusión donde encontraran la facilidad, eficiencia,
+        capacidad y responsabilidad para dar solución y encontrar la ayuda
+        necesaria a su necesidad. Siempre seremos su mejor opción para vender o
+        comprar sus inmuebles y la mejor asesoría Jurídica a sus inconvenientes.
       </Paragraph>
     </HeroContent>
     <Waves />

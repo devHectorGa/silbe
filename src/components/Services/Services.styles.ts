@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FigureStyles } from "../common";
 
 export const ServicesContainer = styled.section`
   display: grid;
@@ -20,15 +21,8 @@ export const ServiceElement = styled.div`
 `;
 
 export const Figure = styled.figure`
-  width: 100%;
-  position: relative;
+  ${FigureStyles}
+
   max-width: 200px;
   margin: 0 auto;
-
-  img {
-    object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
-  }
 `;

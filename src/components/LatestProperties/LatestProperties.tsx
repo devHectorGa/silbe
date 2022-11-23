@@ -1,6 +1,7 @@
 import { COPCurrency } from "@utils/CurrencyFormat";
 import { Card, Typography } from "antd";
 import Image from "next/image";
+import { Figure, ImageResponsive } from "../common";
 import {
   LatestPropertiesContainer,
   ListContainer,
@@ -16,7 +17,7 @@ export const LatestProperties = () => (
       {properties.map(({ description, price, img }, index) => (
         <Card
           key={index}
-          cover={<Image src={img} alt={description} width={300} height={168} />}
+          cover={<ImageResponsive src={img} alt={description} />}
         >
           <Text type="warning">{COPCurrency.format(price)}</Text>
           <Paragraph>{description}</Paragraph>
