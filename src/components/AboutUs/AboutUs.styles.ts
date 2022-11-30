@@ -6,7 +6,7 @@ export const AboutUsContainer = styled.section`
   padding: var(--space-sections);
   display: grid;
   place-content: center;
-  background-color: #4d4d4d;
+  background-color: var(--background);
   position: relative;
 `;
 
