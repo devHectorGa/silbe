@@ -1,16 +1,17 @@
 import { Typography } from "antd";
 import Image from "next/image";
+import { ImageResponsive } from "../common";
 import { AboutTitle, AboutUsContainer, AboutUsContent } from "./AboutUs.styles";
-import { WavesAbout } from "./Waves";
+import { AboutWaves } from "./AboutWaves";
 
 const { Paragraph } = Typography;
 
 export const AboutUs = () => (
   <AboutUsContainer>
-    <WavesAbout />
+    <AboutWaves />
     <AboutUsContent className="dark">
       <AboutTitle>QUIENES SOMOS</AboutTitle>
-      <Image src="/SIL.svg" alt="Logo" width={240} height={240} />
+      <ImageResponsive src="/SIL.svg" alt="Logo" />
       <Paragraph>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry&apos;s standard dummy text

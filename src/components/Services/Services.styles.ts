@@ -5,7 +5,7 @@ export const ServicesContainer = styled.section`
   display: grid;
   min-height: 80vh;
   place-content: center;
-  margin: 1rem;
+  padding: var(--space-sections);
 
   @media screen and (min-width: 425px) {
     grid-template-columns: repeat(2, 1fr);

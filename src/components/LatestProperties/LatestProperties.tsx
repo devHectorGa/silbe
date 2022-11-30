@@ -1,7 +1,6 @@
 import { COPCurrency } from "@utils/CurrencyFormat";
 import { Card, Typography } from "antd";
-import Image from "next/image";
-import { Figure, ImageResponsive } from "../common";
+import { ImageResponsive } from "../common";
 import {
   LatestPropertiesContainer,
   ListContainer,
