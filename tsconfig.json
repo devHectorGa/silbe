@@ -17,14 +17,20 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "baseUrl": ".",
+    "paths": {
+      "@lib/*": ["./lib/*"],
+      "@utils/*": ["./utils/*"],
+    },
+    "jsx": "preserve", 
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "lib/sanity.js"  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "admin"
   ]
 }
