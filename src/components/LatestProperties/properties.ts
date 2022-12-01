@@ -1,32 +1,8 @@
-export const properties = [
+export const properties: {img:string;price?:number, description: string}[] = [
   {
-    img: "/house.jpeg",
-    price: 170,
+    img: "/house-picture.jpeg",
     description:
-      "Ubicado en la localidad de Chapinero, en la Calle 58 Bis con Carrera 9, al oriente de Bogotá. Su ubicación estratégica permite estar cerca de actividades laborales, comerciales, financieras y académicas entre otras.",
-  },
-  {
-    img: "/house.jpeg",
-    price: 170,
-    description:
-      "Ubicado en la localidad de Chapinero, en la Calle 58 Bis con Carrera 9, al oriente de Bogotá. Su ubicación estratégica permite estar cerca de actividades laborales, comerciales, financieras y académicas entre otras.",
-  },
-  {
-    img: "/house.jpeg",
-    price: 170,
-    description:
-      "Ubicado en la localidad de Chapinero, en la Calle 58 Bis con Carrera 9, al oriente de Bogotá. Su ubicación estratégica permite estar cerca de actividades laborales, comerciales, financieras y académicas entre otras.",
-  },
-  {
-    img: "/house.jpeg",
-    price: 170,
-    description:
-      "Ubicado en la localidad de Chapinero, en la Calle 58 Bis con Carrera 9, al oriente de Bogotá. Su ubicación estratégica permite estar cerca de actividades laborales, comerciales, financieras y académicas entre otras.",
-  },
-  {
-    img: "/house.jpeg",
-    price: 170,
-    description:
-      "Ubicado en la localidad de Chapinero, en la Calle 58 Bis con Carrera 9, al oriente de Bogotá. Su ubicación estratégica permite estar cerca de actividades laborales, comerciales, financieras y académicas entre otras.",
-  },
+      "Casa esquinera ubicada en la calle 48 sur # 89-44 casa 97 Urbanización Margarita VI, Tiene 3 pisos, 3 alcobas, 2 baños, (un jacuzzi), los tres cuartos con closets, sala, comedor, cocina semi-integral y patio de ropas, todos los pisos en cerámica y garaje comunal",
+  }
+  
 ];

@@ -18,7 +18,7 @@ export const LatestProperties = () => (
           key={index}
           cover={<ImageResponsive src={img} alt={description} />}
         >
-          <Text type="warning">{COPCurrency.format(price)}</Text>
+          {!!price && <Text type="warning">{COPCurrency.format(price)}</Text>}
           <Paragraph>{description}</Paragraph>
         </Card>
       ))}
